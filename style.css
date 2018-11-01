@@ -16,7 +16,7 @@ p, ul {
 	-webkit-margin-after: 0;
 }
 
-a, a:visited { 
+a, a:visited {
 	color: inherit;
 }
 a:hover {
@@ -46,10 +46,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 { font-size: 19px; width: 120px; float: left; }
-h1 > span { 
+h1 > span {
 	padding: 8px 0 0 0;
 	display: block;
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 11px;
 	line-height: 13px;
 	color: #9e9e9e;
@@ -142,7 +142,7 @@ Block Module
 
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
-	border-radius: 6px;		
+	border-radius: 6px;
 }
 
 /* ==============================
@@ -188,8 +188,8 @@ a.sb-section {
 }
 
 a.sb-section:hover {
-	background: rgba(255,255,255,0.05);	
-	background-clip: border-box;	
+	background: rgba(255,255,255,0.05);
+	background-clip: border-box;
 	border-top: 1px solid #414141;
 }
 
@@ -199,7 +199,7 @@ a.sb-active, a.sb-active:hover {
 	-webkit-box-shadow: inset 0px 14px 15px -15px #000000, inset 0px -14px 15px -15px #000000;
 	box-shadow: inset 0px 14px 15px -15px #000000, inset 0px -14px 15px -15px #000000;
 	pointer-events: disabled !important;
-} 
+}
 
 .sb-section h3 {
 	font-size: 19px;
@@ -223,7 +223,7 @@ Sidebar Animated Backgrounds
 	position: absolute;
 	left: 0;
 	top: 0;
-	background: transparent url('../assets/img/sidebar-sprite.png') top left no-repeat;	
+	background: transparent url('../assets/img/sidebar-sprite.png') top left no-repeat;
 	z-index: 9999;
 }
 
@@ -256,9 +256,9 @@ Sidebar Animated Backgrounds
 	transition: 1s;
 }
 
-.sb-section.skills.sb-inactive:hover .sb-sprite-animate.skills, 
+.sb-section.skills.sb-inactive:hover .sb-sprite-animate.skills,
 .sb-section.skills.sb-active .sb-sprite-animate.skills,
-.sb-section.references.sb-inactive:hover .sb-sprite-animate.references, 
+.sb-section.references.sb-inactive:hover .sb-sprite-animate.references,
 .sb-section.references.sb-active .sb-sprite-animate.references {
 	-webkit-transform-origin: bottom left;
 	-moz-transform-origin: bottom left;
@@ -269,7 +269,7 @@ Sidebar Animated Backgrounds
 	-moz-animation-name: swing;
 	-ms-animation-name: swing;
 	-o-animation-name: swing;
-	animation-name: swing;		
+	animation-name: swing;
 	-webkit-animation-duration: 0.6s;
 	-webkit-animation-delay: 0s;
 	-webkit-animation-timing-function: ease;
@@ -294,41 +294,41 @@ Sidebar Animated Backgrounds
 
 @-webkit-keyframes swing {
 	50%, 85%, 95%, 100% { -webkit-transform-origin: top center; }
-	50% { -webkit-transform: rotate(-25deg); }	
+	50% { -webkit-transform: rotate(-25deg); }
 	85% { -webkit-transform: rotate(5deg); }
-	95% { -webkit-transform: rotate(-5deg); }	
-	100% { -webkit-transform: rotate(0deg); }	
+	95% { -webkit-transform: rotate(-5deg); }
+	100% { -webkit-transform: rotate(0deg); }
 }
 
 @-moz-keyframes swing {
-	50% { -moz-transform: rotate(-25deg); }	
+	50% { -moz-transform: rotate(-25deg); }
 	85% { -moz-transform: rotate(5deg); }
-	95% { -moz-transform: rotate(-5deg); }	
-	100% { -moz-transform: rotate(0deg); }	
+	95% { -moz-transform: rotate(-5deg); }
+	100% { -moz-transform: rotate(0deg); }
 }
 
 @-ms-keyframes swing {
-	50% { -ms-transform: rotate(-25deg); }	
+	50% { -ms-transform: rotate(-25deg); }
 	85% { -ms-transform: rotate(5deg); }
-	95% { -ms-transform: rotate(-5deg); }	
-	100% { -v-transform: rotate(0deg); }	
+	95% { -ms-transform: rotate(-5deg); }
+	100% { -v-transform: rotate(0deg); }
 }
 
 @-o-keyframes swing {
-	50% { -o-transform: rotate(-25deg); }	
+	50% { -o-transform: rotate(-25deg); }
 	85% { -o-transform: rotate(5deg); }
-	95% { -o-transform: rotate(-5deg); }	
-	100% { -o-transform: rotate(0deg); }	
+	95% { -o-transform: rotate(-5deg); }
+	100% { -o-transform: rotate(0deg); }
 }
 
 @keyframes swing {
-	50% { transform: rotate(-35deg); }	
+	50% { transform: rotate(-35deg); }
 	85% { transform: rotate(5deg); }
-	95% { transform: rotate(-5deg); }	
-	100% { transform: rotate(0deg); }	
+	95% { transform: rotate(-5deg); }
+	100% { transform: rotate(0deg); }
 }
 
-.sb-section.experience.sb-inactive:hover .sb-sprite-animate.experience, 
+.sb-section.experience.sb-inactive:hover .sb-sprite-animate.experience,
 .sb-section.experience.sb-active .sb-sprite-animate.experience {
 	-webkit-transform-origin: 49px 44px;
 	-moz-transform-origin: 49px 44px;
@@ -339,7 +339,7 @@ Sidebar Animated Backgrounds
 	-moz-animation-name: spin;
 	-ms-animation-name: spin;
 	-o-animation-name: spin;
-	animation-name: spin;		
+	animation-name: spin;
 	-webkit-animation-duration: 1.2s;
 	-webkit-animation-delay: 0.3s;
 	-webkit-animation-timing-function: ease;
@@ -364,31 +364,31 @@ Sidebar Animated Backgrounds
 
 @-webkit-keyframes spin {
 	0%, 100% { -webkit-transform-origin: top center; }
-	0% { -webkit-transform: rotate(0deg); }	
-	100% { -webkit-transform: rotate(365deg); }	
+	0% { -webkit-transform: rotate(0deg); }
+	100% { -webkit-transform: rotate(365deg); }
 }
 
 @-moz-keyframes spin {
-	0% { -moz-transform: rotate(0deg); }	
-	100% { -moz-transform: rotate(365deg); }	
+	0% { -moz-transform: rotate(0deg); }
+	100% { -moz-transform: rotate(365deg); }
 }
 
 @-ms-keyframes spin {
-	0% { -ms-transform: rotate(0deg); }	
-	100% { -ms-transform: rotate(365deg); }	
+	0% { -ms-transform: rotate(0deg); }
+	100% { -ms-transform: rotate(365deg); }
 }
 
 @-o-keyframes spin {
-	0% { -o-transform: rotate(0deg); }	
-	100% { -o-transform: rotate(365deg); }	
+	0% { -o-transform: rotate(0deg); }
+	100% { -o-transform: rotate(365deg); }
 }
 
 @keyframes spin {
-	0% { transform: rotate(0deg); }	
-	100% { transform: rotate(365deg); }	
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(365deg); }
 }
 
-.sb-section.experience.sb-inactive:hover .sb-sprite-animate.experience-active-arrow, 
+.sb-section.experience.sb-inactive:hover .sb-sprite-animate.experience-active-arrow,
 .sb-section.experience.sb-active .sb-sprite-animate.experience-active-arrow {
 	-webkit-transform-origin: 50px 44px;
 	-moz-transform-origin: 50px 44px;
@@ -399,7 +399,7 @@ Sidebar Animated Backgrounds
 	-moz-animation-name: rise;
 	-ms-animation-name: rise;
 	-o-animation-name: rise;
-	animation-name: rise;		
+	animation-name: rise;
 	-webkit-animation-duration: 1.2s;
 	-webkit-animation-delay: 0s;
 	-webkit-animation-timing-function: ease;
@@ -419,31 +419,31 @@ Sidebar Animated Backgrounds
 }
 
 @-webkit-keyframes rise {
-	0% { top: 200px; opacity: 1; }	
+	0% { top: 200px; opacity: 1; }
 	90% { top: -100px; opacity: 0.3; }
-	95% { top: -100px; opacity: 0; }	
+	95% { top: -100px; opacity: 0; }
 	100% { top: 200px; opacity: 0;	}
 }
 
 
 @-ms-keyframes rise {
-	0% { top: 200px; opacity: 1; }	
+	0% { top: 200px; opacity: 1; }
 	90% { top: -100px; opacity: 0.3; }
-	95% { top: -100px; opacity: 0; }	
+	95% { top: -100px; opacity: 0; }
 	100% { top: 200px; opacity: 0;	}
 }
 
 @-o-keyframes rise {
-	0% { top: 200px; opacity: 1; }	
+	0% { top: 200px; opacity: 1; }
 	90% { top: -100px; opacity: 0.3; }
-	95% { top: -100px; opacity: 0; }	
+	95% { top: -100px; opacity: 0; }
 	100% { top: 200px; opacity: 0;	}
 }
 
 @keyframes rise {
-	0% { top: 200px; opacity: 1; }	
+	0% { top: 200px; opacity: 1; }
 	90% { top: -100px; opacity: 0.3; }
-	95% { top: -100px; opacity: 0; }	
+	95% { top: -100px; opacity: 0; }
 	100% { top: 200px; opacity: 0;	}
 }
 
@@ -452,38 +452,76 @@ Sidebar Animated Backgrounds
 Icon Styles
 ================================*/
 
+@font-face {
+  font-family: 'icomoon';
+  src:  url('assets/fonts/icomoon.eot?g3odv6');
+  src:  url('assets/fonts/icomoon.eot?g3odv6#iefix') format('embedded-opentype'),
+    url('assets/fonts/icomoon.ttf?g3odv6') format('truetype'),
+    url('assets/fonts/icomoon.woff?g3odv6') format('woff'),
+    url('assets/fonts/icomoon.svg?g3odv6#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  opacity: 0.75;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-twitter:before {
+  content: "\61";
+}
+.icon-vcard:before {
+  content: "\6b";
+}
+.icon-file:before {
+  content: "\6a";
+}
+.icon-email:before {
+  content: "\64";
+}
+.icon-dribbble:before {
+  content: "\66";
+}
+
 .icon {
 	float: left;
 	font-size: 26px;
 }
-     	
-[data-icon]:before {
-	font-family: 'Pictos Custom';
-	content: attr(data-icon);
-	opacity: 0.75;
-}
-.icon-btn:hover [data-icon]:before {
-	opacity: 1;	
+
+[class^="icon-"]:hover, [class*=" icon-"]:hover {
+	opacity: 1;
 }
 
 a.icon-btn {
-	width: 15px;
+	width: 23px;
 	height: 22px;
 	text-decoration: none;
 	color: black;
 	display: inline-block;
-	margin: 0 4px;
-	padding: 4px 8px 2px 8px;
+	margin: 0 5px;
+	padding: 4px 7px 8px 8px;
 	text-align: center;
 	position: relative;
-	text-indent: -3px;
-	
+	text-indent: -2px;
+
 	background-image: linear-gradient(bottom, rgb(77,77,77) 0%, rgb(125,125,125) 100%);
 	background-image: -o-linear-gradient(bottom, rgb(77,77,77) 0%, rgb(125,125,125) 100%);
 	background-image: -moz-linear-gradient(bottom, rgb(77,77,77) 0%, rgb(125,125,125) 100%);
 	background-image: -webkit-linear-gradient(bottom, rgb(77,77,77) 0%, rgb(125,125,125) 100%);
 	background-image: -ms-linear-gradient(bottom, rgb(77,77,77) 0%, rgb(125,125,125) 100%);
-	
+
 	background-image: -webkit-gradient(
 		linear,
 		left bottom,
@@ -491,11 +529,11 @@ a.icon-btn {
 		color-stop(0, rgb(77,77,77)),
 		color-stop(1, rgb(125,125,125))
 	);
-	
+
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
 	border-radius: 4px;
-	
+
 	text-shadow: 0 1px 0 #818181;
 	-webkit-box-shadow: 0px 1px 0 0 rgba(0,0,0,1), 0px -1px 0 0 rgba(0,0,0,1), 0px 2px 0 0 rgba(255,255,255,0.2), inset 0 25px 25px -25px rgba(255,255,255,0.25), inset 0 -25px 25px -25px rgba(0,0,0,0.9);
 	box-shadow: 0px 1px 0 0 rgba(0,0,0,1), 0px -1px 0 0 rgba(0,0,0,1), 0px 2px 0 0 rgba(255,255,255,0.2), inset 0 25px 25px -25px rgba(255,255,255,0.25), inset 0 -25px 25px -25px rgba(0,0,0,0.9);
@@ -516,14 +554,13 @@ a.icon-btn:hover {
 }
 a.icon-btn:active, a.icon-btn:focus {
 	padding-top: 5px;
-	padding-bottom: 1px;
+	padding-bottom: 7px;
 	-webkit-box-shadow: 0px 1px 0 0 rgba(0,0,0,1), 0px -1px 0 0 rgba(0,0,0,1), 0px 2px 0 0 rgba(255,255,255,0.2), inset 0 25px 25px -25px rgba(255,255,255,0.25), inset 0 -25px 25px -25px rgba(0,0,0,0.9), inset 0 5px 5px -5px #000, inset 0 0 5px 0 rgba(0,0,0,0.4);
 	box-shadow: 0px 1px 0 0 rgba(0,0,0,1), 0px -1px 0 0 rgba(0,0,0,1), 0px 2px 0 0 rgba(255,255,255,0.2), inset 0 25px 25px -25px rgba(255,255,255,0.25), inset 0 -25px 25px -25px rgba(0,0,0,0.9), inset 0 5px 5px -5px #000, inset 0 0 5px 0 rgba(0,0,0,0.4);
 	opacity: 0.6;
 }
-a.resume {
-	padding: 4px 8px;
-	text-indent: 0;
+a.icon-file {
+	text-indent: -1px;
 }
 a.vcard {
 	padding: 4px 9px 4px 9px;
@@ -543,8 +580,9 @@ Tooltip Module
 	right: 50%;
 	position: relative;
 	top: -42px;
-	
-	text-indent: 0;	
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+	text-indent: 0;
 	margin: 0;
 	padding: 0;
 	display: block;
@@ -555,17 +593,17 @@ Tooltip Module
 	padding: 4px 7px;
 	z-index: 999;
 	white-space: nowrap;
-	
+
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
-	border-radius: 4px;		
-	
+	border-radius: 4px;
+
 	background-image: linear-gradient(bottom, rgb(84,84,84) 0%, rgb(125,125,125) 100%);
 	background-image: -o-linear-gradient(bottom, rgb(84,84,84) 0%, rgb(125,125,125) 100%);
 	background-image: -moz-linear-gradient(bottom, rgb(84,84,84) 0%, rgb(125,125,125) 100%);
 	background-image: -webkit-linear-gradient(bottom, rgb(84,84,84) 0%, rgb(125,125,125) 100%);
 	background-image: -ms-linear-gradient(bottom, rgb(84,84,84) 0%, rgb(125,125,125) 100%);
-	
+
 	background-image: -webkit-gradient(
 		linear,
 		left bottom,
@@ -576,26 +614,26 @@ Tooltip Module
 
 	color: #fff000;
 	text-shadow: 0 -1px 0 rgba(0,0,0,0.65);
-	
+
      -moz-box-shadow: 0px 0 7px rgba(0,0,0,0.2); /* FF3.5+ */
   -webkit-box-shadow: 0px 0 7px rgba(0,0,0,0.2); /* Saf3.0+, Chrome */
           box-shadow: 0px 0 7px rgba(0,0,0,0.2); /* Opera 10.5, IE9, Chrome 10+ */
 
 	-webkit-transition-property: opacity, top, left;
   	-webkit-transition-duration: 0.4s, 0.4s, 0s;
-  	-webkit-transition-delay: 0s, 0s, 0.4s; 
-	   
+  	-webkit-transition-delay: 0s, 0s, 0.4s;
+
 	  -ms-transition-property: opacity, top, left;
 	  -ms-transition-duration: 0.4s, 0.4s, 0s;
 	  -ms-transition-delay: 0s, 0s, 0.4s;
-	   
+
 	  -moz-transition-property: opacity, top, left;
-	  -moz-transition-duration: 0.4s, 0.4s, 0s;   
-	  -moz-transition-delay: 0s, 0s, 0.4s; 
-	   
+	  -moz-transition-duration: 0.4s, 0.4s, 0s;
+	  -moz-transition-delay: 0s, 0s, 0.4s;
+
 	   transition-property: opacity, top, left;
 	   transition-duration: 0.4s, 0.4s, 0s;
-	   transition-delay: 0s, 0s, 0.4s; 	       
+	   transition-delay: 0s, 0s, 0.4s;
 }
 
 .tooltip-wrap {
@@ -611,12 +649,12 @@ a.icon:hover .tooltip{
 	top: -59px;
 	opacity: 1;
 
-	-webkit-transition-delay: 0s; 
-	-ms-transition-delay: 0s; 
-	-moz-transition-delay: 0s;  
-	 transition-delay: 0s; 
+	-webkit-transition-delay: 0s;
+	-ms-transition-delay: 0s;
+	-moz-transition-delay: 0s;
+	 transition-delay: 0s;
 }
- 
+
 /*  Styles for tooltip arrow  */
 
 
@@ -654,8 +692,8 @@ Chartwell
 	top: 0;
 }
 .chartwell-pies {
-	font-size: 400px; 
-	line-height:1em; 
+	font-size: 400px;
+	line-height:1em;
 	-ms-transition: position 0.5s;
 	-o-transition: position 0.5s;
 	-moz-transition: position 0.5s;
@@ -663,7 +701,7 @@ Chartwell
 	transition: position 0.5s;
 }
 .cw-value-one {color: #5994FF;}
-.cw-value-two {color: #78FF4E;} 
+.cw-value-two {color: #78FF4E;}
 .cw-value-three {color: #FF8C27; }
 .cw-value-four {color: #fff000;}
 .cw-value-five {color: #E84545;}
@@ -673,15 +711,15 @@ Chartwell
 .cw-graph { top:-10px; position: absolute}
 .chartwell-lines span {color:#000 !important; }
 
-.cw-pies-graph-one > span { 
+.cw-pies-graph-one > span {
 	position: absolute;
 }
 
 .pie .l-absolute { margin-left: 720px; }
 .pie .l-absolute.shim { margin-left: 700px; }
-	
-.pie span.label { 
-	position: absolute; 
+
+.pie span.label {
+	position: absolute;
 	z-index: 999;
 	color: #000000;
 	font-weight: bold;
@@ -755,14 +793,14 @@ Chartwell
 	.pie .l-absolute { margin-left: 550px; }
 	.pie-labels .l-absolute.shim { margin-left: 470px; top: -22px;	}
 	.chartwell-pies { font-size: 300px; }
-	
+
 	.pie-vis-design { top: 209px; right: 46px; }
 	.pie-front-dev { top: 125px; right: 0px; }
 	.pie-int-design { top: 156px; right: 95px; }
 	.pie-back-dev { top: 77px; right: 89px; }
-	
+
 	.cw-value-one {	margin-left: -300px; }
-	
+
 	.cw-value-one.pie-active {
 		right: -23px;
 		top: -8px;
