@@ -2,7 +2,7 @@ BEGIN:VCARD
 VERSION:3.0
 N:Feister;Brian;;;
 FN:Brian Feister
-item1.EMAIL;type=INTERNET;type=pref:b@brianfeister.com
+item1.EMAIL;type=INTERNET;type=pref:brian.feister@gmail.com
 item1.X-ABLabel:_$!<Other>!$_
 PHOTO;BASE64:
   /9j/4AAQSkZJRgABAQAAAQABAAD/4QBARXhpZgAATU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAA
